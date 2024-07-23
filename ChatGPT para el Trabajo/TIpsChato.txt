@@ -1,0 +1,128 @@
+EMAILS
+Promps útiles:
+
+Escribir correos electronicos : ej:__>1->escribe un email para mi jefe pidiendo 2 semanas de vacaciones.
+ej2__> darle instrucciones , el email, y que conteste.
+(adaptar email para cualquier tipo de público)(traducir emails)corregir, optimizar
+PowerPoint:
+Gamma.app -> oi.diegodavila.com/gamma _> para crear la cuenta y conseguir algo de creditos
+
+PROMPS __>:
+__>Me gustaría que optimizaras este texto revisando la gramática, la ortografía, la claridad y el
+estilo. Haz optimizaciones y al final explica cada optimización que hiciste. [INSTRUCCIONES
+ADICIONALES, TONO FORMAL, INFORMAL, EXPLICACIÓN, ETC] .
+shif+enter -> para linea extra, pegamos el texto.
+
+CREAR LISTAS DE TAREAS INTELIGENTES:
+
+__>Cree una lista inteligente de tareas pendientes para crear un [cualquier tema] curso online, en cada uno de los puntos podemos pedirle ayuda también a chat
+__>Según la lista de tareas inteligentes anterior, priorice las tareas según la urgencia y la
+importancia.
+__>Con base en la lista de tareas inteligentes anterior, sugiera recomendaciones para la
+optimización de tareas para garantizar que aumentemos la productividad y realicemos la
+tarea de manera más rápida y sencilla.
+
+CREACIÓN Y ANÁLISIS DE CONTENIDO CON CHATGPT:
+
+DIVIDIR EN DOS PARTES 1º UN ESQUEMA SOBRE X TEMA Y 2ªColocamos a chat en el molde para que escriba:
+__>Cree un esquema para un informe [TEMA]
+__>Cree un esquema para un artículo sobre [TEMA].
+__> AVISO: Eres el mejor editor de texto del mundo. Escriba un artículo completo utilizando el
+esquema que creamos [AÑADIR ESQUEMA AQUÍ]
+__>Crea un esquema para un articulo sobre un sub tema del articulo anterior para profundizar.
+
+__>Datos de venta de cursos online: genereamos para trabajar con ellos de ejemplo
+__>Realice un análisis exhaustivo de los datos, saque conclusiones y brinde recomendaciones
+[PEGUE SUS DATOS AQUÍ PARA SER ANALIZADOS]
+__>Resuma este [ARTÍCULO/CORREO ELECTRÓNICO/DOCUMENTO], extraiga los puntos clave,
+haga una lista de conocimientos prácticos y también agregue cualquier otro conocimiento
+que considere importante. [PEGUE ARTÍCULO/CORREO ELECTRÓNICO/DOCUMENTO AQUÍ] _> también se puede meter el enlace en caso de que no copiamos el texto
+PEDIR QUE HAGA UN RESUMEN, QUE EXTRAIGA LOS CONOCIMIENTOS CLAVE, ETC.
+__>traduce este texto al [japonez]-> luego podemos comprabar en google lo que traduce al español
+
+APRENDIZAJE Y DESARROLLO DE HABILIDADES, EMPRENDIMIENTO
+realizar busquedas o consultas ->google suelta mucha basura comercial 
+__>cual es el mejor email para una empresa de 100 empleados
+__>Como mejorar el desempeño de mis campañas de email.(tasas de apertura de clic, conversión)
+__>soy el gerente de marketing y tengo 5 funcionarios que quiero que esteen mas motivados a
+trabajar en nuestros proyectos como puedo hacerlo.
+__>por favor descomplica este articulo cientifico.__>ahora simplifica esa información como para que un niño de 5 años lo entienda
+__>¿Cuáles son las últimas tendencias y estadísticas de la industria [INDUSTRIA? -->PREMIUM
+__>Dame una visión general de mis competidores y la dinámica del mercado en el sector[SECTOR]
+
+REUNIONES DE TRABAJO
+__>ChatGPT, necesito prepararme para una reunión importante. ¿Pueden guiarme a través de los
+pasos necesarios para asegurarme de que estoy completamente preparado? Haga preguntas de
+seguimiento hasta que tenga toda la información necesaria para ayudarme a organizar la reunión
+y también al final escriba una agenda para esa reunión.
+***haga preguntas de seguimiento _> si añadimos esto al promp chat va a preguntar lo que le haga falta para realizar el promp lo mejor posible
+respondes las preguntas con la referencia de los números que te a proporcionado en las preguntas.
+
+Hay sofware para grabar una reunion.
+__>Aqui están las Notas de nuestra reunión. Quiero que extraigas los puntos clave, decisiones,
+puntos de acción, y cualquier otra información que sea relevante.
+__> basado en esta reunión ayudame a organizar la próxima reunion para que sea más efectiva.
+
+
+Evaluación y predicción de riesgos con CHAtgtp
+__>"Hola, ChatGPT. Estoy planeando lanzar un nuevo reloj inteligente en el mercado latino
+americano el próximo año. Tiene funciones de monitoreo de salud, integración con varias
+aplicaciones de fitness y un diseño innovador. Me gustaría comprender los riesgos
+potenciales asociados con este lanzamiento.. Por favor considere aspectos como
+competencia de mercado, tendencias tecnológicas, posibles barreras regulatorias y cualquier
+otro factor relevante. Además, en base a estos riesgos, ¿pueden darme una previsión de
+posibles escenarios y sugerencias de estrategias de mitigación?"
+
+__>como puedo solucionar este error. [codigoError]
+
+BUSQUEDA EMPLEO
+Escribir
+__>Ayudame a escribir mi curriculum. Haga las preguntas necesarias hasta que tenga todo lo que necesita para escribir un curriculum optimizado.
+__>necesito tu ayuda para esta pregunta. ¿Cuál es tu objetivo profesional o el tipo de trabajo al que aspiras?
+__>En base a mi currículum, cuáles son las posiciones o puestos en los que podría desempeñarme con
+éxito.
+Búsqueda
+__>¿Qué pensará sobre mi currículum un reclutador de recursos humanos de la empresa
+[EMPLEADOR] que estil contratando para la vacante de [POSICIÓN]?
+__>tienes alguna otra sugerencia para optimizar aun mas mi curriculum para esta poscion?
+__>Escribe el resumen original poentente que sugeriste en el #1
+Entrevista
+__>¿Cuáles son las 10 preguntas principales para una entrevista para el trabajo de [Programador V
+Senior] en microsoft.
+__>"Quiero que actúes como entrevistador para un puesto POSICION]. Seré el candidato y me harás
+las preguntas de la entrevista. Quiero que respondas solo como entrevistador. Hazme las
+preguntas una por una, esperando para mi respuesta antes de hacer la siguiente pregunta, como lo
+hace un entrevistador. Empecemos con, "hola, mi nombre es [TU NOMBRE]".
+Enviar Correo Recrutier.
+__>Escriba un correo electrónico respondiendo a este correo electrónico del reclutador de Microsoft.
+recuerda resaltar los puntos fuertes de mi currículum.
+TAREAS TÉCNICAS EN EL TRABAJO
+
+__>Ayúdame a escribir documentación completa para [PROPÓSITO, PROYECTO, Preguntas frecuentes MANUAL PRODUCTO
+__> HAY 4 DOCUMENTOS PDFS CON INFORMACION ADICIONALES
+
+EMPRENDIMIENTO
+
+__>Haz una lista de preguntas que tengo que hacer para abrir una panadería. Haré panes
+naturales y orgánicos, serviré café, pasteles y otros productos a mis clientes. Organiza las
+preguntas por categorias.
+**podemos agarrar estas preguntas y pedirle más ayuda especifica a chhato
+__>Que hacen mis competidores para vender más, aumentar los ingresos comerciales y tener éxito.
+__>Cuál sería la mejor ubicación para mi negocio de venta de cupkakes?  o tengo tres locales en especifico cual sería el más apropiado para vender más.
+__> que otras preguntas deberia hacer sobre el crecimiento de mi negocio?
+__> ¿Cómo puedo integrar la IA en mi [TIPO DE NEGOCIO]?
+__> Tengo un negocio de [TIPO_NEGOCIO]. Haz una lista de nuevas ideas, nuevos productos o
+servicios que puedan ayudarme a aumentar mis ingresos y hacer crecer mi negocio.**puedes pedir que chat te haga preguntas.
+__>Cree nombres de productos para [TIPO DE NEGOCIO] y [PÚBLICO OBJETIVO]. Haga preguntas y
+seguimiento si es necesario hasta que tenga toda la información que necesito para encontrar el
+mejor nombre para mis productos
+__> ¿Puedes escribir contratos? enumere todos los tipos de contratos que me puede ayudar a
+escribir.
+__>Ayúdame a redactar un contrato de (TIPO DE ACUERDO], haga preguntas hasta que ten,...
+información que necesita para escribir este contrato.
+
+CREACIÓN DE PÁGINAS WEB
+	hostinger__> cupón de descuento: DIEGODAVILA
+	hpanel.hostinger.com _> panel para modificar
+	https://www.hostinger.es/?utm_medium=affiliate&utm_source=aff79785&utm_campaign=438&session=102aa078009218a0c4b46c7f666bb8
+	
