@@ -1,0 +1,63 @@
+[
+  {
+    "ID": 1,
+    "NOMBRE": "Lámpara Solar",
+    "DESCRIPCION": "Lámpara de jardín con energía solar y sensor de movimiento.",
+    "PRECIO": 29.99
+  },
+  {
+    "ID": 2,
+    "NOMBRE": "Auriculares Inalámbricos",
+    "DESCRIPCION": "Auriculares Bluetooth con cancelación de ruido y micrófono integrado.",
+    "PRECIO": 59.99
+  },
+  {
+    "ID": 3,
+    "NOMBRE": "Mochila Antirrobo",
+    "DESCRIPCION": "Mochila con compartimento para portátil y sistema antirrobo.",
+    "PRECIO": 45.50
+  },
+  {
+    "ID": 4,
+    "NOMBRE": "Reloj Inteligente",
+    "DESCRIPCION": "Reloj con monitor de actividad física y notificaciones de llamadas.",
+    "PRECIO": 89.99
+  },
+  {
+    "ID": 5,
+    "NOMBRE": "Set de Jardinería",
+    "DESCRIPCION": "Kit de herramientas de jardinería con guantes y tijeras de podar.",
+    "PRECIO": 25.00
+  },
+  {
+    "ID": 6,
+    "NOMBRE": "Cafetera de Goteo",
+    "DESCRIPCION": "Cafetera con capacidad para 12 tazas y temporizador programable.",
+    "PRECIO": 49.99
+  },
+  {
+    "ID": 7,
+    "NOMBRE": "Robot Aspirador",
+    "DESCRIPCION": "Aspirador robótico con navegación inteligente y control por app.",
+    "PRECIO": 199.99
+  },
+  {
+    "ID": 8,
+    "NOMBRE": "Bicicleta Eléctrica",
+    "DESCRIPCION": "Bicicleta con asistencia eléctrica y batería de larga duración.",
+    "PRECIO": 999.99
+  },
+  {
+    "ID": 9,
+    "NOMBRE": "Cámara de Acción",
+    "DESCRIPCION": "Cámara resistente al agua con grabación 4K y estabilización de imagen.",
+    "PRECIO": 129.99
+  },
+  {
+    "ID": 10,
+    "NOMBRE": "Proyector Portátil",
+    "DESCRIPCION": "Proyector compacto con conectividad HDMI y resolución HD.",
+    "PRECIO": 179.99
+  }
+]
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Conversor de Divisas</h2>
+    <form method="post">
+        <div class="form-group">
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" step="0.01" class="form-control" id="cantidad" name="cantidad" required>
+        </div>
+        <div class="form-group">
+            <label for="from_currency">De:</label>
+            <select class="form-control" id="from_currency" name="from_currency" required>
+                {% for currency in currencies %}
+                <option value="{{ currency }}">{{ currency }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="to_currency">A:</label>
+            <select class="form-control" id="to_currency" name="to_currency" required>
+                {% for currency in currencies %}
+                <option value="{{ currency }}">{{ currency }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Convertir</button>
+    </form>
+    {% if resultado is not none %}
+    <div class="mt-4">
+        <h3>Resultado: {{ resultado }}</h3>
+    </div>
+    {% endif %}
+</div>
+</body>
+</html>

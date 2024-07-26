@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Regla de Tres</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Calculadora Regla de Tres</h2>
+    <form method="post">
+        <div class="form-group">
+            <label for="num1">Número 1:</label>
+            <input type="text" class="form-control" id="num1" name="num1" required>
+        </div>
+        <div class="form-group">
+            <label for="num2">Número 2:</label>
+            <input type="text" class="form-control" id="num2" name="num2" required>
+        </div>
+        <div class="form-group">
+            <label for="num3">Número 3:</label>
+            <input type="text" class="form-control" id="num3" name="num3" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Calcular</button>
+    </form>
+    {% if resultado is not none %}
+    <div class="mt-4">
+        <h3>Resultado: {{ resultado }}</h3>
+    </div>
+    {% endif %}
+</div>
+</body>
+</html>
