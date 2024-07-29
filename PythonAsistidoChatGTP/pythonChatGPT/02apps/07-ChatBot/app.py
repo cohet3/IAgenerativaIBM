@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # Configuración de la API de OpenAI
-openai.api_key = ''  # Reemplaza con tu propia clave API de OpenAI
+openai.api_key = 'TU-api'  # Reemplaza con tu propia clave API de OpenAI
 
 
 def obtener_respuesta(prompt):
