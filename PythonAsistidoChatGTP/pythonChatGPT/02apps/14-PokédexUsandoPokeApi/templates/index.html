@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Pokedex - Home{% endblock %}
+
+{% block content %}
+<h1>Pokedex</h1>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Imagen</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for poke in pokemon_list %}
+    <tr>
+        <td>{{ poke.id }}</td>
+        <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ poke.id }}.png"/></td>
+        <td><a href="/pokemon/{{ poke.id }}">{{ poke.name }}</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

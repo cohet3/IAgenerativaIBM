@@ -1,3 +1,6 @@
 # Ignora la carpeta de watson
 .monitor-wml-model-whit-watson-openscale
 .claves.env
+.PythonAsistidoChatGTP/pythonChatGPT/02apps/15-HitsConSpoty/config.py
+venv/
+env/

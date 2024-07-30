@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Voz a Texto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Conversor de Voz a Texto</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".mp3" required>
+        <button type="submit">Convertir a Texto</button>
+    </form>
+    {% if text %}
+    <textarea readonly>{{ text }}</textarea>
+    {% endif %}
+</div>
+</body>
+</html>

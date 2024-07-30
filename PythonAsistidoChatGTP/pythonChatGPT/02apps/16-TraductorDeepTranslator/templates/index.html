@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor Multilingüe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Traductor Multilingüe</h1>
+    <form method="post">
+        <table>
+            <tr>
+                <td>
+                    <textarea name="spanish_text" placeholder="Escribe tu texto en español...">{{ request.form.get('spanish_text', '') }}</textarea>
+                </td>
+                <td>
+                    <textarea readonly>{{ translated_texts['english'] }}</textarea>
+                </td>
+                <td>
+                    <textarea readonly>{{ translated_texts['french'] }}</textarea>
+                </td>
+                <td>
+                    <textarea readonly>{{ translated_texts['italian'] }}</textarea>
+                </td>
+                <td>
+                    <textarea readonly>{{ translated_texts['german'] }}</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <button type="submit">Traducir</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

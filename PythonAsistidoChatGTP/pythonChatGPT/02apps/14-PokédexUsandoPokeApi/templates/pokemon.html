@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ pokemon.name }}{% endblock %}
+
+{% block content %}
+<h1>{{ pokemon.name }}</h1>
+<div class="pokemon-details">
+    <img src="{{ pokemon.image_url }}" alt="{{ pokemon.name }}">
+    <table>
+        <tr>
+            <th>ID</th>
+            <td>{{ pokemon.id }}</td>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <td>{{ pokemon.type }}</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>{{ pokemon.description }}</td>
+        </tr>
+        <tr>
+            <th>Abilities</th>
+            <td>{{ pokemon.abilities | join(', ') }}</td>
+        </tr>
+    </table>
+</div>
+<div class="back-link">
+    <a href="/">Back to Pokedex</a>
+</div>
+{% endblock %}

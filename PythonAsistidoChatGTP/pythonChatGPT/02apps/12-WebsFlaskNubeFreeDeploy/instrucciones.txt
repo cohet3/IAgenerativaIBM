@@ -1,0 +1,16 @@
+1. Crear cuenta en pythonanywhere
+2. abrir una consola bash en la web arriba nombrada
+3.  pip3 install --user virtualenv ->INSTAlamos un entorno virtual
+4. virtualenv env ->crear entorno virtual
+5. source env/bin/activate _> activar entorno
+6. pip install Flask -> instalamos flask o lo que haga falta
+7. Crear en la Web una app Flask
+la web es bastante amigable y comprensible
+subdirectorio(static) _> para añadir imagenes
+
+en caso de tener otro directorio para servir ficheros estaticos hay que añadir su ruta
+también podemos forzar el https
+
+* a travez de la consola también podemos clonar un repo para posteriormente deplegarlo
+
+https://www.pythonanywhere.com/user/dannydavid/webapps/#tab_id_dannydavid_pythonanywhere_com

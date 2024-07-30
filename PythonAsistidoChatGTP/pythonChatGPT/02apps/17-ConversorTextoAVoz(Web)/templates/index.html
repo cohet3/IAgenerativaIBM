@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Texto a Voz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function speakText() {
+            const text = document.getElementById('text').value;
+            fetch('/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'text': text
+                })
+            }).then(response => response.json())
+              .then(data => {
+                  if (data.status === 'success') {
+                      const audio = new Audio(data.audio_url);
+                      audio.play();
+                  }
+              });
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>Conversor de Texto a Voz</h1>
+    <form method="post" onsubmit="event.preventDefault(); speakText();">
+        <textarea id="text" name="text" placeholder="Escribe el texto aquí..."></textarea>
+        <button type="button" onclick="speakText()">Leer Texto</button>
+    </form>
+</div>
+</body>
+</html>
